@@ -17,8 +17,7 @@
 
 /*id's*/
 #logo{
-    width: 18em;
- 
+    min-width: 18em;
 }
 
 #camera_button {
