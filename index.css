@@ -17,9 +17,24 @@
 
 /*id's*/
 #logo {
-
+    grid-area: log;
+    width: 100%;
 }
 
 #camera_button {
-    
+    grid-area: but;
+    width: 100%;
 }
+
+
+
+.introduction {
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    grid-template-rows: auto; /* Explicitly define that there's only one row */
+    row-gap: 2em;
+    grid-template-areas: 
+     "log log log log" 
+     "but but but but";
+}
+
+
