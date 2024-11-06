@@ -107,11 +107,13 @@ body {
 }
 
 #requestButton {
-    height: 30%;
-    width: 56%;
+    height: 7rem;
+    width: 7rem;
     font-size: 3rem;
     border-radius: 50%;
     align-items: center;
+    background-color: black;
+    border-color: black;
 }
 
 #cameraPanel {
