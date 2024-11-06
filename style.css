@@ -107,8 +107,8 @@ body {
 }
 
 #requestButton {
-    height: 73%;
-    width: 36%;
+    height: 50%;
+    width: 50%;
     font-size: 3rem;
     border-radius: 50%;
 }
