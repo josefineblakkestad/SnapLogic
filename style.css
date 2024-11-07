@@ -32,13 +32,13 @@ body {
 }
 
 #requestButton {
-    height: 7rem;
-    width: 7rem;
+    height: 30%;
+    width: 75%;
     font-size: 3rem;
     border-radius: 50%;
-    align-items: center;
     background-color: black;
     border-color: black;
+
 }
 
 #cameraPanel {
