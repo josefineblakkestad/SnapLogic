@@ -1,5 +1,5 @@
 // hard-code the backend server
-let backendURL = 'https://image-analysis-server-two.vercel.app/' //url for image analysis server, change with my own
+let backendURL = 'https://image-analysis-server-steel.vercel.app/' //url for image analysis server, change with my own
 
 //-----  Code for accessing the camera -----//
 let width = 320;    // We will scale the photo width to this
