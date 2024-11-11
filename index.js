@@ -16,12 +16,6 @@ let imageDescription = document.getElementById('imageDescription');
 let homeNav = document.getElementById('homeNav');
 let homeButton = document.getElementById('homeButton');
 let description = document.getElementById('descriptionPanel');
-var constraints = { 
-    audio: true,
-    video: {
-      facingMode: 'environment'
-  }
-}
 
 
 function clearphoto() {
