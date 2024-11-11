@@ -65,6 +65,12 @@ async function takepicture() {
     }
 }
 
+var constraints = { 
+    audio: false,
+    video: {
+      facingMode: 'environment'
+  }
+}
 
 async function setupCameraExample() {
     let stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
