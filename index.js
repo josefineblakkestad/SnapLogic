@@ -27,6 +27,13 @@ function clearphoto() {
     photo.setAttribute("src", dataURL);
 }
 
+var constraints = { 
+    audio: true,
+    video: {
+      facingMode: 'environment'
+  };
+}
+
 async function takepicture() {
     const context = canvas.getContext("2d");
     if (width && height) {
@@ -65,12 +72,6 @@ async function takepicture() {
     }
 }
 
-var constraints = { 
-    audio: false,
-    video: {
-      facingMode: 'environment'
-  }
-}
 
 async function setupCameraExample() {
     let stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
