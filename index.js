@@ -16,6 +16,12 @@ let imageDescription = document.getElementById('imageDescription');
 let homeNav = document.getElementById('homeNav');
 let homeButton = document.getElementById('homeButton');
 let description = document.getElementById('descriptionPanel');
+var constraints = { 
+    audio: true,
+    video: {
+      facingMode: 'environment'
+  }
+}
 
 
 function clearphoto() {
@@ -27,12 +33,7 @@ function clearphoto() {
     photo.setAttribute("src", dataURL);
 }
 
-var constraints = { 
-    audio: true,
-    video: {
-      facingMode: 'environment'
-  }
-}
+
 
 async function takepicture() {
     const context = canvas.getContext("2d");
