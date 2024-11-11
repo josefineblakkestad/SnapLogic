@@ -31,7 +31,7 @@ var constraints = {
     audio: true,
     video: {
       facingMode: 'environment'
-  };
+  }
 }
 
 async function takepicture() {
